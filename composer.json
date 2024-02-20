@@ -1,6 +1,6 @@
 {
     "name": "eleven59/signrequest-php-client",
-    "version": "1.0.0",
+    "version": "dev-master",
     "description": "Fork of Official PHP client for SignRequest to add Laravel 8+ support",
     "keywords": [],
     "homepage": "https://signrequest.com/",
@@ -16,7 +16,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^7.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
