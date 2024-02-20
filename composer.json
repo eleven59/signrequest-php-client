@@ -1,13 +1,8 @@
 {
-    "name": "signrequest/signrequest-client",
-    "version": "1.3.0",
-    "description": "Official PHP client for SignRequest.com (https://signrequest.com)",
-    "keywords": [
-        "signrequest",
-        "php",
-        "sdk",
-        "api"
-    ],
+    "name": "eleven59/signrequest-php-client",
+    "version": "1.0.0",
+    "description": "Fork of Official PHP client for SignRequest to add Laravel 8+ support",
+    "keywords": [],
     "homepage": "https://signrequest.com/",
     "license": "MIT",
     "authors": [
@@ -17,14 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=8.0",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit": "^9.0",
         "squizlabs/php_codesniffer": "~2.6",
         "friendsofphp/php-cs-fixer": "~2.12"
     },
